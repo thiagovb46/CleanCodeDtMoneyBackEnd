@@ -5,7 +5,7 @@ using Domain.IRepositories;
 
 namespace Application.UsesCases
 {
-    internal class GetAllTransactionsUseCase : IGetAllTransactionsUseCase
+    public class GetAllTransactionsUseCase : IGetAllTransactionsUseCase
     {
         private readonly ITransactionRepository _transactionRepository;
         private readonly TransactionConverter _transactionConverter;
